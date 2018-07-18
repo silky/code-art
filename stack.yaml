@@ -1,0 +1,11 @@
+resolver: lts-3.13
+packages:
+  - .
+  - location: ext/ImplicitCAD
+    extra-dep: True
+
+extra-deps:
+  - string-conv-0.1.2@sha256:1fa79b999fda34b0eb406261cf77475f1919ca5e754adf983182601e6e3de759
+
+flags: {}
+extra-package-dbs: []
